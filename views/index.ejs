@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        .parent{
+            background-image: url("/stacked-waves-haikei\ \(1\).svg");
+            background-image: url("data:image/svg+xml,%3Csvg id='visual' viewBox='0 0 960 540' width='960' height='540' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1'%3E%3Cpath d='M0 195L14.5 178.8C29 162.7 58 130.3 87.2 134.8C116.3 139.3 145.7 180.7 174.8 198.7C204 216.7 233 211.3 262 214.2C291 217 320 228 349 229.8C378 231.7 407 224.3 436.2 200C465.3 175.7 494.7 134.3 523.8 120.8C553 107.3 582 121.7 611 136C640 150.3 669 164.7 698 176.3C727 188 756 197 785.2 185.3C814.3 173.7 843.7 141.3 872.8 128.8C902 116.3 931 123.7 945.5 127.3L960 131L960 0L945.5 0C931 0 902 0 872.8 0C843.7 0 814.3 0 785.2 0C756 0 727 0 698 0C669 0 640 0 611 0C582 0 553 0 523.8 0C494.7 0 465.3 0 436.2 0C407 0 378 0 349 0C320 0 291 0 262 0C233 0 204 0 174.8 0C145.7 0 116.3 0 87.2 0C58 0 29 0 14.5 0L0 0Z' fill='%23ff749e'%3E%3C/path%3E%3Cpath d='M0 249L14.5 232C29 215 58 181 87.2 184.7C116.3 188.3 145.7 229.7 174.8 254C204 278.3 233 285.7 262 287.5C291 289.3 320 285.7 349 282.8C378 280 407 278 436.2 256.3C465.3 234.7 494.7 193.3 523.8 176.3C553 159.3 582 166.7 611 190.2C640 213.7 669 253.3 698 266.8C727 280.3 756 267.7 785.2 243.3C814.3 219 843.7 183 872.8 168.5C902 154 931 161 945.5 164.5L960 168L960 129L945.5 125.3C931 121.7 902 114.3 872.8 126.8C843.7 139.3 814.3 171.7 785.2 183.3C756 195 727 186 698 174.3C669 162.7 640 148.3 611 134C582 119.7 553 105.3 523.8 118.8C494.7 132.3 465.3 173.7 436.2 198C407 222.3 378 229.7 349 227.8C320 226 291 215 262 212.2C233 209.3 204 214.7 174.8 196.7C145.7 178.7 116.3 137.3 87.2 132.8C58 128.3 29 160.7 14.5 176.8L0 193Z' fill='%23ff4e83'%3E%3C/path%3E%3Cpath d='M0 309L14.5 309.8C29 310.7 58 312.3 87.2 331.2C116.3 350 145.7 386 174.8 405.8C204 425.7 233 429.3 262 424.8C291 420.3 320 407.7 349 405.8C378 404 407 413 436.2 404C465.3 395 494.7 368 523.8 351.8C553 335.7 582 330.3 611 342C640 353.7 669 382.3 698 388.7C727 395 756 379 785.2 372.8C814.3 366.7 843.7 370.3 872.8 374.8C902 379.3 931 384.7 945.5 387.3L960 390L960 166L945.5 162.5C931 159 902 152 872.8 166.5C843.7 181 814.3 217 785.2 241.3C756 265.7 727 278.3 698 264.8C669 251.3 640 211.7 611 188.2C582 164.7 553 157.3 523.8 174.3C494.7 191.3 465.3 232.7 436.2 254.3C407 276 378 278 349 280.8C320 283.7 291 287.3 262 285.5C233 283.7 204 276.3 174.8 252C145.7 227.7 116.3 186.3 87.2 182.7C58 179 29 213 14.5 230L0 247Z' fill='%23ff0066'%3E%3C/path%3E%3Cpath d='M0 449L14.5 450C29 451 58 453 87.2 456.7C116.3 460.3 145.7 465.7 174.8 472.8C204 480 233 489 262 495.3C291 501.7 320 505.3 349 506.2C378 507 407 505 436.2 501.3C465.3 497.7 494.7 492.3 523.8 487.8C553 483.3 582 479.7 611 480.5C640 481.3 669 486.7 698 487.7C727 488.7 756 485.3 785.2 485.3C814.3 485.3 843.7 488.7 872.8 488.7C902 488.7 931 485.3 945.5 483.7L960 482L960 388L945.5 385.3C931 382.7 902 377.3 872.8 372.8C843.7 368.3 814.3 364.7 785.2 370.8C756 377 727 393 698 386.7C669 380.3 640 351.7 611 340C582 328.3 553 333.7 523.8 349.8C494.7 366 465.3 393 436.2 402C407 411 378 402 349 403.8C320 405.7 291 418.3 262 422.8C233 427.3 204 423.7 174.8 403.8C145.7 384 116.3 348 87.2 329.2C58 310.3 29 308.7 14.5 307.8L0 307Z' fill='%23dd005a'%3E%3C/path%3E%3Cpath d='M0 541L14.5 541C29 541 58 541 87.2 541C116.3 541 145.7 541 174.8 541C204 541 233 541 262 541C291 541 320 541 349 541C378 541 407 541 436.2 541C465.3 541 494.7 541 523.8 541C553 541 582 541 611 541C640 541 669 541 698 541C727 541 756 541 785.2 541C814.3 541 843.7 541 872.8 541C902 541 931 541 945.5 541L960 541L960 480L945.5 481.7C931 483.3 902 486.7 872.8 486.7C843.7 486.7 814.3 483.3 785.2 483.3C756 483.3 727 486.7 698 485.7C669 484.7 640 479.3 611 478.5C582 477.7 553 481.3 523.8 485.8C494.7 490.3 465.3 495.7 436.2 499.3C407 503 378 505 349 504.2C320 503.3 291 499.7 262 493.3C233 487 204 478 174.8 470.8C145.7 463.7 116.3 458.3 87.2 454.7C58 451 29 449 14.5 448L0 447Z' fill='%23bb004d'%3E%3C/path%3E%3C/svg%3E");
+            min-width: 100vh;
+            min-height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Teko:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class= "parent">
+        <div class="container text-light">
+            <div class="row text-center p-3">
+                <h1 class="display-1 text-light" style="font-family: 'Teko'" >Multi-Threaded ETL System</h1>
+            </div>
+            <div class="row  align-items-center" style="min-height: 75vh; font-family: 'Poppins';">
+                <div class="col text-center" >
+                    <div class="card bg-transparent " style="width: 18rem; height: 15rem; ">
+                    <div class="card-body bg-transparent">
+                      <h5 class="card-title">RAW</h5>
+                      <p class="card-text">Simple Database query nothing more</p>
+                        <form action="/timer" method="post">
+                        <button class="btn btn-primary">Case 1</button>
+                        </form> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card bg-transparent" style="width: 18rem;height: 15rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Batch Processing</h5>
+                      <p class="card-text">import the data -> then processing using python -> exporting back to database</p>
+                        <form action="/gpp" method="post">
+                        <button class="btn btn-primary">Case 2</button>
+                        </form> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card bg-transparent" style="width: 18rem;height: 15rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Multithreading</h5>
+                      <p class="card-text">Employing the process of multithreding to process the Data CSV file.</p>
+                        <form action="/mlt" method="post">
+                        <button class="btn btn-primary">Case 3</button>
+                        </form> 
+                    </div>
+                  </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card bg-transparent" style="width: 18rem;height: 15rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Metrics</h5>
+                      <p class="card-text">Now to perform some metrics on the time taken.</p>
+                        <form action="/graph" method="get">
+                        <button class="btn btn-primary">Graph</button>
+                        </form> 
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
